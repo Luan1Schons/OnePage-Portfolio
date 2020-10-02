@@ -20,6 +20,7 @@ html, body {
                              "main main"
                              "aside aside"
                              "skills skills"
+                             'books books'
                              "footer footer"; 
     }
 }
@@ -33,6 +34,7 @@ html, body {
                              "main main"
                              "aside aside"
                              "skills skills"
+                             'books books'
                              "footer footer"; 
     }
 }
@@ -44,6 +46,7 @@ html, body {
         grid-template-areas: "header header"
                              "main main"
                              "aside aside"
+                             'books books'
                              "skills skills"
                              "footer footer"; 
     }
@@ -57,6 +60,7 @@ html, body {
         grid-template-areas: "header header"
                              "main main"
                              "aside aside"
+                             'books books'
                              "skills skills"
                              "footer footer"; 
     }
@@ -70,6 +74,7 @@ html, body {
         grid-template-areas: "header header"
                              "main main"
                              "aside aside"
+                             'books books'
                              "skills skills"
                              "footer footer"; 
     }
@@ -82,12 +87,41 @@ html, body {
         grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
         grid-template-areas: "header header"
                              "main aside"
+                             'books books'
                              "skills skills"
                              "footer footer"; 
+        grid-gap: 25px;
     }
 }
 
+.books {
+    grid-area: books; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, auto));
+    grid-gap: 15px;
+    justify-content: center;
+    align-content: center;
+}
 
+.book {
+    padding: 15px;
+    background-color:#2d2d2d;
+    border-radius: 5px;
+}
+
+.book-stars {
+    text-align: center;
+    color: #abab34;
+}
+
+.book-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    border: solid 3px #af521f;
+    border-radius: 5px;
+}
 
 .skills {
     border-radius: 25px;
@@ -261,6 +295,14 @@ h1 {
     color: #7d7d7d;
 }
 
+h6 {
+    font-family: 'Secular One', sans-serif;
+    font-size: 40px;
+    margin:10px;
+    text-align: left;
+    color: #7d7d7d;
+}
+
 h2 {
     font-family: 'Lobster', cursive;
     font-size: 30px;
@@ -270,6 +312,9 @@ h2 {
     color: #af521f;
 }
 
+.text-yellow {
+    color: #abab34;
+}
 .text-cian {
     color: #1f9296;
 }
@@ -292,6 +337,11 @@ li, a , button {
     text-decoration: none;
 }
 
+.divisor {
+    border: dashed#313131 3px;
+    width: 100%;
+    margin: 15px;
+}
 .logo {
     cursor: pointer;
 }
