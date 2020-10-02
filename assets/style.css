@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+html, body {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background:#2d2d2d;
+    width:100%;
+}
+
+@media only screen and (min-width: 200px) {
+    .container {
+        display:grid;
+        cursor:pointer;
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+        grid-template-areas: "header header"
+                             "main main"
+                             "aside aside"
+                             "skills skills"
+                             "footer footer"; 
+    }
+}
+
+@media only screen and (min-width: 300px) {
+    .container {
+        display:grid;
+        cursor:pointer;
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+        grid-template-areas: "header header"
+                             "main main"
+                             "aside aside"
+                             "skills skills"
+                             "footer footer"; 
+    }
+}
+@media only screen and (min-width: 500px) {
+    .container {
+        display:grid;
+        cursor:pointer;
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+        grid-template-areas: "header header"
+                             "main main"
+                             "aside aside"
+                             "skills skills"
+                             "footer footer"; 
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .container {
+        display:grid;
+        cursor:pointer;
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+        grid-template-areas: "header header"
+                             "main main"
+                             "aside aside"
+                             "skills skills"
+                             "footer footer"; 
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        display:grid;
+        cursor:pointer;
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+        grid-template-areas: "header header"
+                             "main main"
+                             "aside aside"
+                             "skills skills"
+                             "footer footer"; 
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .container {
+        display:grid;
+        cursor:pointer;
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+        grid-template-areas: "header header"
+                             "main aside"
+                             "skills skills"
+                             "footer footer"; 
+    }
+}
+
+
+
+.skills {
+    border-radius: 25px;
+    padding: 15px;
+    grid-area: skills; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    grid-gap: 15px;
+    justify-content: center;
+    align-content: center;
+}
+
+.skills > div > h1 {
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+}
+
+.skills > div {
+    border: solid 9px #0000000f;
+    border-radius: 50px;
+}
+
+.skills-card {
+    border: solid 5px #0000000f;
+    background: #af521f;
+}
+
+.frameworks {
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 25px;
+    grid-area: skills;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    grid-gap: 15px;
+    justify-content: center;
+    align-content: center;
+}
+
+.frameworks > div > h1 {
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+}
+
+
+.frameworks > div {
+    border: solid 9px #0000000f;
+    border-radius: 50px;
+}
+
+.frameworks-card {
+    border: solid 5px #0000000f;
+    background: #6d398e;
+}
+.aditionals {
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 25px;
+    grid-area: skills;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    grid-gap: 15px;
+    justify-content: center;
+    align-content: center;
+}
+
+.aditionals-card {
+    border: solid 5px #0000000f;
+    background: #1f9296;
+}
+.aditionals > div > h1 {
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+}
+.about {
+    width: 100%;
+    height: 100%;
+}
+
+.aditionals > div {
+    border: solid 9px #0000000f;
+    border-radius: 50px;
+}
+
+header {
+    display: flex;
+    grid-area: header;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background: #2b2b2b;
+    border-bottom: solid 5px #af521f;
+    background-repeat: no-repeat;
+}
+
+.background-header {
+    background-image: url('/assets/images/background-header.png');
+    background-repeat: no-repeat;
+}
+
+main {
+    margin: 25px;
+    grid-area: main;
+}
+
+aside {
+    margin: 25px;
+    grid-area: aside;
+}
+
+.perfil-image {
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.perfil-description {
+    text-align: center;
+}
+
+footer {
+    grid-area: footer;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: solid 3px #af521f;
+}
+
+.footer {
+    padding: 10px;
+    background: #0000006e; 
+}
+
+.card {
+    transition: transform 1s;
+    margin-bottom: 25px;
+    padding: 25px;
+    padding-left: 15px;
+    border-radius: 15px;
+    border: solid 3px #2b2b2bc7;
+}
+
+.gray {
+    background: #2b2b2b;
+} 
+.purple {
+    background: #911faf;
+} 
+
+.cian {
+    background: #1f9296;
+} 
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.perfil {
+    border: solid 3px #1f9296;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Secular One', sans-serif;
+    font-size: 30px;
+    color: #7d7d7d;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+.text-orange {
+    color: #af521f;
+}
+
+.text-cian {
+    color: #1f9296;
+}
+
+title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #7d7d7d;
+}
+
+li, a , button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a {
+    color: #7d7d7d;
+}
+button {
+    padding: 9px 25px;
+    background-color: rgb(175 82 31);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.block {
+    width: 100%;
+}
+
+button:hover {
+    background-color: rgb(175 82 31 0.8);
+}
+
+span {
+    color: #7d7d7d;
+}
+/* Icons Colors */
+.orange-icon {
+    color:#af521f;
+    display: flex;
+    justify-content: center;
+}
+/* Icons Colors */
+.purple-icon {
+    color:#911faf;
+    display: flex;
+    justify-content: center;
+}
+.cian-icon {
+    color: #1f9296;
+    display: flex;
+    justify-content: center;
+}
+.red-icon {
+    color: #961f29;
+    display: flex;
+    justify-content: center;
+}
+.blue-icon {
+    color: #424abb;
+    display: flex;
+    justify-content: center;
+}
+.white-icon {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
