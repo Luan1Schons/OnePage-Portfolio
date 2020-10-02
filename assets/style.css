@@ -105,8 +105,8 @@ html, body {
 
 .book {
     padding: 25px;
-    background-color:#212121;
-    border-radius: 5px;
+    background-color:#272727;
+    border-radius: 30px;
 }
 
 .book-stars {
@@ -147,7 +147,7 @@ html, body {
 
 .skills-card {
     border: solid 5px #0000000f;
-    background: #af521f;
+    background: #1f9296;
 }
 
 .frameworks {
@@ -176,7 +176,7 @@ html, body {
 
 .frameworks-card {
     border: solid 5px #0000000f;
-    background: #6d398e;
+    background: #1f9296;
 }
 .aditionals {
     border-radius: 25px;
@@ -278,6 +278,10 @@ footer {
     background: #911faf;
 } 
 
+.white {
+    color: #fff;
+    text-align:center;
+} 
 .cian {
     background: #1f9296;
 } 
