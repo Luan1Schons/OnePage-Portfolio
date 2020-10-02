@@ -104,8 +104,8 @@ html, body {
 }
 
 .book {
-    padding: 15px;
-    background-color:#2d2d2d;
+    padding: 25px;
+    background-color:#212121;
     border-radius: 5px;
 }
 
@@ -241,8 +241,11 @@ aside {
     justify-content:center;
     align-items:center;
 }
-.perfil-description {
+.perfil-description-title {
     text-align: center;
+}
+.perfil-description {
+    text-align: left;
 }
 
 footer {
@@ -338,10 +341,9 @@ li, a , button {
 }
 
 .divisor {
-    border: dashed#313131 3px;
-    width: 100%;
-    margin: 15px;
+    margin: 25px;
 }
+
 .logo {
     cursor: pointer;
 }
@@ -382,7 +384,6 @@ span {
     display: flex;
     justify-content: center;
 }
-/* Icons Colors */
 .purple-icon {
     color:#911faf;
     display: flex;
